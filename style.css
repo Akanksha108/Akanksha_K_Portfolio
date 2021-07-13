@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
+body{
+    background-color: #A78BFA;
+}
+
 h1, h2{
     text-align: center;
+}
+
+.navbar{
+    background-color: #C4B5FD;
+    height: 15vh;
+    margin: 0;
 }
 
 .nav_list{
@@ -17,4 +33,49 @@ h1, h2{
     float: left;
     font-size: 20px;
     font-weight: bolder;
+}
+
+.img_heading{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading{
+    margin-left: 50px;
+    margin-top: 80px;
+    padding-top: 100px;
+    font-family: "Merienda";
+    font-size: 20px;
+}
+
+.hero_container{
+    width: 600px;
+    
+}
+
+.hero_image{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.main_container{
+    background-color: #8B5CF6;
+    padding: 20px;
+}
+
+.container_heading{
+    font-family: "Playfair Display SC";
+}
+
+.main_container_para{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: "Quattrocento";
+}
+
+.container_heading{
+    font-size: 30px;
 }
