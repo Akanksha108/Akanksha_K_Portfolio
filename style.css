@@ -100,3 +100,18 @@ h1, h2{
     width: 100px;
     height: 100px;
 }
+
+.project_container{
+    width: 100%;
+}
+
+.project_btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.blog_section{
+    width: 100%;
+}
