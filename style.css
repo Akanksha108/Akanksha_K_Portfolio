@@ -79,3 +79,24 @@ h1, h2{
 .container_heading{
     font-size: 30px;
 }
+
+.skills_container{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.skills_container_list{
+    list-style-type: none;
+}
+
+.skills_container_list li{
+    display: inline-block;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.skills_images{
+    width: 100px;
+    height: 100px;
+}
