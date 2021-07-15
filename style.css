@@ -110,13 +110,6 @@ h1, h2{
     width: 100%;
 }
 
-.project_btn{
-    padding: 10px 20px;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-}
-
 .project_container_list{
     text-align: center;
 }
@@ -128,7 +121,7 @@ h1, h2{
     font-weight: bolder;
 }
 
-.proj_link{
+.project_link{
     margin-top: 10px;
     padding: 10px;
     text-decoration: none;
