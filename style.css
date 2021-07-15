@@ -4,12 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #A78BFA;
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: #A78BFA;
+    background-color: var(--primary-color);
+    font-family: "Quattrocento";
 }
 
 h1, h2{
@@ -110,6 +115,35 @@ h1, h2{
     border-radius: 10px;
     display: block;
     margin: auto;
+}
+
+.project_container_list{
+    text-align: center;
+}
+
+.project_list{
+    margin: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.proj_link{
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #6D28D9;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.proj_link:hover{
+    background-color: azure;
+    color: black;
 }
 
 .blog_section{
