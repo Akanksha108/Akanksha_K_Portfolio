@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
@@ -21,9 +21,10 @@ h1, h2{
     text-align: center;
 }
 
-.navbar{
+ .navbar{
     background-color: #C4B5FD;
-    height: 15vh;
+    width: 100%;
+    height: 15vh; 
     margin: 0;
 }
 
@@ -31,7 +32,8 @@ h1, h2{
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-}
+} 
+
 
 .nav_list_items{
     padding: 1rem;
@@ -46,28 +48,30 @@ h1, h2{
 }
 
 .img_heading{
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly;*/
+    width: 100%;
 }
 
 .heading{
-    margin-left: 50px;
+    /* margin-left: 50px;
     margin-top: 80px;
-    padding-top: 100px;
+    padding-top: 100px; */
     font-family: "Merienda";
     font-size: 20px;
 }
 
 .hero_container{
-    width: 600px;
-    
+    width: 100%;
+    position: relative;
 }
 
 .hero_image{
     display: block;
     margin: auto;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    /* width: 600px;
+    height: 600px; */
 }
 
 .main_container{
@@ -93,7 +97,7 @@ h1, h2{
 .skills_container{
     width: 100%;
     text-align: center;
-    margin: 50px 0;
+    /* margin: 50px 0; */
 }
 
 .skills_container_list{
@@ -103,7 +107,7 @@ h1, h2{
 .skills_container_list li{
     display: inline-block;
     align-items: center;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .skills_images{
@@ -113,6 +117,7 @@ h1, h2{
 
 .project_container{
     width: 100%;
+    text-align: center;
 }
 
 .project_container_list{
@@ -120,43 +125,44 @@ h1, h2{
 }
 
 .project_list{
-    margin: 10px;
+    /* margin: 10px;
+    padding: 10px 20px; */
     text-align: center;
-    padding: 10px 20px;
     font-weight: bolder;
 }
 
 .project_link{
-    margin-top: 10px;
-    padding: 10px;
     text-decoration: none;
     background-color: #6D28D9;
     color: white;
     border-radius: 10px;
-    display: block;
-    width: 10%;
-    margin: auto;
-    margin-bottom: 20px;
-}
+    display: block; 
+    /*margin: auto; */
+    /* width: 30px; */
+    /*margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;  */
+} 
 
-.proj_link:hover{
+.project_link:hover{
     background-color: azure;
     color: black;
 }
 
 .blog_section{
     width: 100%;
+    text-align: center;
 }
 
 .footer_container{
     width: 100%;
     background-color: #8B5CF6;
-    height: 20vh;
-    padding: 10px;
+    /* height: 20vh; */
 }
 
 .footer_heading{
     font-family: "Merienda";
+    padding: 10px;
 }
 
 .footer_list{
@@ -169,4 +175,134 @@ h1, h2{
 .footer_img{
     width: 40px;
     height: 40px;
+}
+
+
+@media screen and (min-width: 360px) {
+    .project_link{
+        display: inline-block;
+        width: 35vw;
+        height: 5vh;
+        padding: 8px;
+    } 
+
+    .project_container_list{
+        padding: 0 20px;
+    }
+
+    .heading{
+        padding-top: 50px;
+    }
+
+    .footer_list{
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar{
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .nav_list{
+        justify-content: flex-end;
+    }
+
+     .img_heading{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .hero_image{
+        width: 500x;
+        height: 500px;
+        padding: 20px;
+    }
+
+    .heading{
+        font-size: 20px;
+        margin: 20px 0 0 30px;
+        padding-top: 100px;
+    }
+
+    .project_link{
+        height: 6vh;
+        padding: 6px;
+        width: 20%;
+    }
+
+    .footer_container{
+        margin-top: 15px;
+        padding: 10px;
+    }
+} 
+
+@media screen and (min-width: 1020px) {
+    .img_heading{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .heading{
+        margin-left: 50px;
+        margin-top: 50px;
+        padding-top: 40px; 
+    }
+
+    .project_link{
+        display: block;
+        margin: auto;
+        width: 15%;
+        height: 6vh;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .nav_links{
+        font-size: 27px;
+    }
+
+    .hero_container{
+        width: 1000px
+    }
+
+    .heading{
+        padding-top: 110px;
+    }
+
+    .hero_image{
+        padding: 20px 50px 20px 100px;
+    }
+
+    .container_heading{
+        font-size: 45px;
+    }
+
+    .main_container_para{
+        font-size: 28px;
+    }
+
+    .project_container_list{
+        padding: 0 100px;
+    }
+
+    .project_list{
+        font-size: 25px;
+        text-align: center;
+      
+    }
+
+    .project_link{
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .footer_heading{
+        font-size: 30px;
+    }
 }
