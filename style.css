@@ -48,15 +48,10 @@ h1, h2{
 }
 
 .img_heading{
-    /* display: flex;
-    justify-content: space-evenly;*/
     width: 100%;
 }
 
 .heading{
-    /* margin-left: 50px;
-    margin-top: 80px;
-    padding-top: 100px; */
     font-family: "Merienda";
     font-size: 20px;
 }
@@ -70,8 +65,6 @@ h1, h2{
     display: block;
     margin: auto;
     width: 100%;
-    /* width: 600px;
-    height: 600px; */
 }
 
 .main_container{
@@ -97,7 +90,6 @@ h1, h2{
 .skills_container{
     width: 100%;
     text-align: center;
-    /* margin: 50px 0; */
 }
 
 .skills_container_list{
@@ -107,7 +99,6 @@ h1, h2{
 .skills_container_list li{
     display: inline-block;
     align-items: center;
-    /* margin-right: 50px; */
 }
 
 .skills_images{
@@ -125,8 +116,6 @@ h1, h2{
 }
 
 .project_list{
-    /* margin: 10px;
-    padding: 10px 20px; */
     text-align: center;
     font-weight: bolder;
 }
@@ -137,11 +126,6 @@ h1, h2{
     color: white;
     border-radius: 10px;
     display: block; 
-    /*margin: auto; */
-    /* width: 30px; */
-    /*margin-bottom: 20px;
-    margin-top: 10px;
-    padding: 10px;  */
 } 
 
 .project_link:hover{
@@ -157,7 +141,6 @@ h1, h2{
 .footer_container{
     width: 100%;
     background-color: #8B5CF6;
-    /* height: 20vh; */
 }
 
 .footer_heading{
