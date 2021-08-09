@@ -167,8 +167,28 @@ h1, h2{
 
 .blog_link{
     text-decoration: none;
-
+    margin: auto;
 }
+
+.go_back{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.go_back_link{
+    display: block;
+    margin: auto;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #6D28D9;
+    color: white;
+    height: 7vh;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 
 .footer_container{
     width: 100%;
@@ -193,7 +213,7 @@ h1, h2{
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) {
     .project_link{
         display: inline-block;
         width: 35vw;
@@ -212,6 +232,10 @@ h1, h2{
     .blog_container{
         width: 100%;
         height: 25vh;
+    }
+
+    .go_back_link{
+        width: 30%;
     }
 
     .footer_list{
@@ -249,9 +273,16 @@ h1, h2{
     }
 
     .project_link{
+        display: block;
+        margin: auto;
         height: 6vh;
         padding: 6px;
         width: 20%;
+        margin-bottom: 15px;
+    }
+
+    .go_back_link{
+        width: 25%;
     }
 
     .footer_container{
