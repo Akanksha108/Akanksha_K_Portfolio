@@ -74,6 +74,7 @@ h1, h2{
 
 .container_heading{
     font-family: "Playfair Display SC";
+    font-size: 30px;
 }
 
 .main_container_para{
@@ -81,10 +82,6 @@ h1, h2{
     font-size: larger;
     font-weight: bolder;
     font-family: "Quattrocento";
-}
-
-.container_heading{
-    font-size: 30px;
 }
 
 .skills_container{
@@ -134,8 +131,43 @@ h1, h2{
 }
 
 .blog_section{
+    display: block;
+    text-align: center;
+}
+
+.blog_container{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    width: 70%;
+    display: block;
+    margin: auto;
+    height: 22vh;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.blog_container_heading{
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    font-family: "Playfair Display SC";
+    font-weight: bold;
+}
+
+.blog_heading{
+    font-family: "Playfair Display SC";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.blog_link_container{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.blog_link{
+    text-decoration: none;
+
 }
 
 .footer_container{
@@ -161,7 +193,7 @@ h1, h2{
 }
 
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
     .project_link{
         display: inline-block;
         width: 35vw;
@@ -175,6 +207,11 @@ h1, h2{
 
     .heading{
         padding-top: 50px;
+    }
+
+    .blog_container{
+        width: 100%;
+        height: 25vh;
     }
 
     .footer_list{
@@ -276,8 +313,7 @@ h1, h2{
 
     .project_list{
         font-size: 25px;
-        text-align: center;
-      
+        text-align: center; 
     }
 
     .project_link{
