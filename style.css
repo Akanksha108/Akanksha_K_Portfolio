@@ -243,13 +243,13 @@ h1, h2{
     .main_container{
         width: 100%;
         margin: 20px 0px;
-        padding: 20px 0px;
+        padding: 20px 8px;
     }
 
     .project_container{
         width: 100%;
         margin: 20px 0px;
-        padding: 20px 0;
+        padding: 20px 8px;
     }
 
     .heading{
