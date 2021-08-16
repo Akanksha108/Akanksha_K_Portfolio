@@ -96,6 +96,7 @@ h1, h2{
 .skills_container_list li{
     display: inline-block;
     align-items: center;
+    margin: 10px;
 }
 
 .skills_images{
@@ -241,6 +242,10 @@ h1, h2{
 
     .footer_list{
         margin-bottom: 0;
+    }
+
+    .skills_container_list{
+        padding: 0;
     }
 }
 
