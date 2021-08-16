@@ -14,8 +14,9 @@
 }
 
 body{
-    /* background-color: var(--primary-color); */
     font-family: "Quattrocento";
+    overflow-x: hidden;
+    margin: 0;
 }
 
 h1, h2{
@@ -71,8 +72,6 @@ h1, h2{
 
 .main_container{
     background-color: var(--primary-color);
-    padding: 20px;
-    margin: 20px;
 }
 
 .container_heading{
@@ -110,10 +109,7 @@ h1, h2{
 }
 
 .project_container{
-    width: 100%;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
     background-color: var(--primary-color);
 }
 
@@ -227,6 +223,12 @@ h1, h2{
 
 
 @media screen and (min-width: 360px) {
+
+    .navbar{
+        margin-left: 10px;
+        margin-left: 10px;
+    }
+     
     .project_link{
         display: inline-block;
         width: 35vw;
@@ -242,12 +244,14 @@ h1, h2{
 
     .main_container{
         width: 100%;
-        margin: 20px 0;
+        margin: 20px 10px;
+        padding: 20px 0;
     }
 
     .project_container{
         width: 100%;
-        margin: 20px 0;
+        margin: 20px 10px;
+        padding: 20px 0;
     }
 
     .heading{
@@ -282,6 +286,17 @@ h1, h2{
     .nav_list{
         justify-content: flex-end;
     }
+
+    .main_container{
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+
+    .project_container{
+        margin: 20px;
+        padding: 20px;
+    }
+
 
      .img_heading{
         display: flex;
