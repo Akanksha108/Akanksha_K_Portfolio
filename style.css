@@ -145,10 +145,9 @@ h1, h2{
 
 .blog_container{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-    width: 70%;
     display: block;
     margin: auto;
-    padding-top: 10px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
@@ -239,11 +238,6 @@ h1, h2{
 
     .blog_container{
         width: 100%;
-        height: 30vh;
-    }
-
-    .go_back_link{
-        width: 30%;
     }
 
     .footer_container{
@@ -315,7 +309,6 @@ h1, h2{
 
     .blog_container{
         width: 70%;
-        height: 25vh;
     }
 
     .footer_container{
@@ -396,6 +389,18 @@ h1, h2{
     .skills_images{
         width: 140px;
         height: 140px;
+    }
+
+    .blog_container_heading{
+        font-size: 2.4rem;
+    }
+
+    .blog_heading{
+        font-size: 1.8rem;
+    }
+
+    .blog_link_container{
+        font-size: 1rem;
     }
 
     .footer_heading{
