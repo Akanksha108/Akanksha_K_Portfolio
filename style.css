@@ -70,6 +70,7 @@ h1, h2{
 .main_container{
     background-color: #8B5CF6;
     padding: 20px;
+    margin: 20px;
 }
 
 .container_heading{
@@ -87,6 +88,8 @@ h1, h2{
 .skills_container{
     width: 100%;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .skills_container_list{
@@ -107,6 +110,8 @@ h1, h2{
 .project_container{
     width: 100%;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .project_container_list{
@@ -134,6 +139,8 @@ h1, h2{
 .blog_section{
     display: block;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .blog_container{
@@ -195,6 +202,7 @@ h1, h2{
 .footer_container{
     width: 100%;
     background-color: #8B5CF6;
+    margin-top: 20px;
 }
 
 .footer_heading{
@@ -225,6 +233,8 @@ h1, h2{
 
     .project_container_list{
         padding: 0 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .heading{
@@ -327,6 +337,12 @@ h1, h2{
 }
 
 @media screen and (min-width: 1400px) {
+
+    .go_back_link{
+        padding: 20px;
+        font-size: 1.6rem;
+    }
+
     .nav_links{
         font-size: 29px;
     }
@@ -356,6 +372,8 @@ h1, h2{
 
     .project_container_list{
         padding: 0 100px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .project_list{
