@@ -177,26 +177,6 @@ h1, h2{
     height: 33px;
 }
 
-.go_back{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.go_back_link{
-    display: block;
-    margin: auto;
-    width: 10%;
-    text-align: center;
-    text-decoration: none;
-    background-color: #6D28D9;
-    color: white;
-    height: 7vh;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-
 .footer_container{
     width: 100%;
     background-color: #8B5CF6;
@@ -212,6 +192,10 @@ h1, h2{
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.proj_navbar{
+    background-color: var(--primary-color);
 }
 
 
@@ -327,10 +311,6 @@ h1, h2{
         margin-bottom: 15px;
     }
 
-    .go_back_link{
-        width: 20%;
-    }
-
     .blog_container{
         width: 70%;
         height: 25vh;
@@ -367,11 +347,6 @@ h1, h2{
 }
 
 @media screen and (min-width: 1400px) {
-
-    .go_back_link{
-        padding: 20px;
-        font-size: 1.6rem;
-    }
 
     .nav_links{
         font-size: 29px;
