@@ -16,7 +16,8 @@
 body{
     font-family: "Quattrocento";
     overflow-x: hidden;
-    margin: 0;
+    margin: 0 8px 8px 8px;
+    padding: 0 8px 8px 8px;
 }
 
 h1, h2{
@@ -87,8 +88,8 @@ h1, h2{
 .skills_container{
     width: 100%;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .skills_container_list{
@@ -199,7 +200,6 @@ h1, h2{
 .footer_container{
     width: 100%;
     background-color: #8B5CF6;
-    margin-top: 20px;
 }
 
 .footer_heading{
@@ -266,8 +266,7 @@ h1, h2{
     }
 
     .footer_container{
-        margin: 20px 0;
-        padding: 5px 0;
+        margin: 20px 0 0 0;
     }
 
     .footer_list{
@@ -292,12 +291,12 @@ h1, h2{
 
     .main_container{
         padding: 20px 10px;
-        margin: 20px 10px;
+        margin: 20px 0px;
     }
 
     .project_container{
-        margin: 20px;
-        padding: 20px;
+        margin: 20px 0;
+        padding: 20px 10px;
     }
 
 
