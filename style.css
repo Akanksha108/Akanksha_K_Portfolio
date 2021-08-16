@@ -320,6 +320,7 @@ h1, h2{
         width: 15%;
         height: 6vh;
         padding-top: 10px;
+        padding-bottom: 10px;
         margin-bottom: 15px;
     }
 
@@ -327,7 +328,7 @@ h1, h2{
 
 @media screen and (min-width: 1400px) {
     .nav_links{
-        font-size: 27px;
+        font-size: 29px;
     }
 
     .hero_container{
@@ -335,7 +336,10 @@ h1, h2{
     }
 
     .heading{
-        padding-top: 110px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-top: 30px;
+        font-size: 28px;
     }
 
     .hero_image{
@@ -362,6 +366,11 @@ h1, h2{
     .project_link{
         font-weight: bolder;
         font-size: 25px;
+    }
+
+    .skills_images{
+        width: 140px;
+        height: 140px;
     }
 
     .footer_heading{
