@@ -226,7 +226,7 @@ h1, h2{
 
     .navbar{
         margin-left: 10px;
-        margin-left: 10px;
+        margin-right: 10px;
     }
      
     .project_link{
@@ -245,7 +245,7 @@ h1, h2{
     .main_container{
         width: 100%;
         margin: 20px 10px;
-        padding: 20px 0;
+        padding: 20px 15px;
     }
 
     .project_container{
@@ -289,7 +289,7 @@ h1, h2{
 
     .main_container{
         padding: 20px 0;
-        margin: 20px 0;
+        margin: 20px 10px;
     }
 
     .project_container{
