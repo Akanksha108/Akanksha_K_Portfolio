@@ -267,6 +267,11 @@ h1, h2{
         width: 30%;
     }
 
+    .footer_container{
+        margin: 20px 10px 10px 10px;
+        padding: 5px;
+    }
+
     .footer_list{
         margin-bottom: 0;
     }
