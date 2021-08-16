@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento:wght@400;700&display=swap');
 
 :root{
-    --primary-color: #A78BFA;
+    /* --primary-color: #A78BFA; */
+    --primary-color: #8B5CF6;
 }
 
 *{
@@ -13,7 +14,7 @@
 }
 
 body{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     font-family: "Quattrocento";
 }
 
@@ -49,6 +50,7 @@ h1, h2{
 
 .img_heading{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .heading{
@@ -68,7 +70,7 @@ h1, h2{
 }
 
 .main_container{
-    background-color: #8B5CF6;
+    background-color: var(--primary-color);
     padding: 20px;
     margin: 20px;
 }
@@ -112,6 +114,7 @@ h1, h2{
     text-align: center;
     margin: 20px;
     padding: 20px;
+    background-color: var(--primary-color);
 }
 
 .project_container_list{
@@ -235,6 +238,16 @@ h1, h2{
         padding: 0 20px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .main_container{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .project_container{
+        width: 100%;
+        margin: 20px 0;
     }
 
     .heading{
