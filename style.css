@@ -114,6 +114,7 @@ h1, h2{
 
 .project_container_list{
     text-align: center;
+    list-style-type: none;
 }
 
 .project_list{
@@ -127,6 +128,7 @@ h1, h2{
     color: white;
     border-radius: 10px;
     display: block; 
+    margin-bottom: 10px;
 } 
 
 .project_link:hover{
