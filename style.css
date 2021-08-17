@@ -178,6 +178,15 @@ h1, h2{
     height: 33px;
 }
 
+.blog_explanation{
+    text-align: center;
+}
+
+.blog_date{
+    text-align: center;
+    display: block;
+}
+
 .footer_container{
     width: 100%;
     background-color: #8B5CF6;
