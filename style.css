@@ -24,7 +24,7 @@ h1, h2{
     text-align: center;
 }
 
- .navbar{
+.navbar{
     background-color: #C4B5FD;
     height: 15vh; 
 }
@@ -45,6 +45,13 @@ h1, h2{
     text-decoration: none;
     color: black;
     font-size: 20px;
+}
+
+.active_link{
+    font-weight: bolder;
+}
+
+.nav_links:hover{
     font-weight: bolder;
 }
 
